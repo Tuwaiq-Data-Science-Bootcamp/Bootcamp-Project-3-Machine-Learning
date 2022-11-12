@@ -1,0 +1,10 @@
+Algorithm_Used,Data_Used,Accuracy
+KNN,Unbalanced,93
+KNN,balanced,86
+KNN,Crossvalidated,79.9
+Random Forest,Unbalanced,97
+Random Forest,balanced,98
+Random Forest,Crossvalidated,96.9
+Decision Tree,Unbalanced,95
+Decision Tree,balanced,97
+Decision Tree,Crossvalidated,91.3
