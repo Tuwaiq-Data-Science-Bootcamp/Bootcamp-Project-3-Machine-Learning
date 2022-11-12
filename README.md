@@ -1,26 +1,26 @@
-# Bootcamp-Project-3-Machine-Learning
+# Fraudulent Job postings
+We picked a Dataset about Job listings. It centers around whether a specfic job listing is real or fake.
 
-Based on what you’ve learned until now, use numpy, pandas, matplotlib, seaborn and scikit-learn to create a project of your choosing. This project must at least satisfy the following minimum requirements:
+## Team members
+Meshari Alqahtani<br />
+Yasser Alomar<br />
+Khalid Alghamdy<br />
 
-- Choose a public dataset that needs to clean and preprocess.
-- EDA
-  - Apply the essential EDA steps: head, shape, info, describe, missing values
-  - Display different charts that give an overview of  your data.
-- Use two splitting methods (train-test split and cross-validation split).
-- Choose three proper ML Algorithms.
-- Report appropriate evaluation metrics for each model.
-- Create a chart that compares the final results of your selected models.
-- Write a final conclusion and recommendations (your interpretation of the results).
-- Report your final conclusion and findings in one page (readme markdown file).
-  - Team members.
-  - Introduction (problem or your goal).
-  - Dataset Overview and Source.
-  - A table represents the final results of ML models.
-- **[Nice to have - Optional]** Create an interactive dashboard using plotly.
-- Due Date: Sun, 13 Nov, at 12:00 p.m.
-- The Final presentation will be on Sunday (10 min for each group).
+## Introduction & Overview
 
-### Final Deliverables:
-- Notebook file(.ipynb).
-- Dataset file.
-- README.md file.
+This dataset consists of 17000+ rows and 18 columns. It contains columns such as Job title, location, salary range and employment type. It also contains the column "fraudulent" which indicates whether the job listing is fake or not, which is the target of our model.<br /><br />
+<br />
+Source link : https://www.kaggle.com/datasets/shivamb/real-or-fake-fake-jobposting-prediction<br />
+
+
+## Results: 
+
+  We used 3 ML Algorithms and below are the results of each one.
+
+![image](https://user-images.githubusercontent.com/109832303/201484671-fcc28769-82a2-443b-bb9d-b57d8e4ad1f7.png)<br />
+
+  Random forest in this case was not ideal, and that's due to the fact that overfitting has clearly occured.
+  
+  Seeing as how Crossvalidating the data gives us a more broad and general model. Our choice for the best model to pick would be the Decision Tree Algorithm when
+  applied to crossvalidated data.
+
