@@ -1,26 +1,61 @@
 # Bootcamp-Project-3-Machine-Learning
 
-Based on what you’ve learned until now, use numpy, pandas, matplotlib, seaborn and scikit-learn to create a project of your choosing. This project must at least satisfy the following minimum requirements:
 
-- Choose a public dataset that needs to clean and preprocess.
-- EDA
-  - Apply the essential EDA steps: head, shape, info, describe, missing values
-  - Display different charts that give an overview of  your data.
-- Use two splitting methods (train-test split and cross-validation split).
-- Choose three proper ML Algorithms.
-- Report appropriate evaluation metrics for each model.
-- Create a chart that compares the final results of your selected models.
-- Write a final conclusion and recommendations (your interpretation of the results).
-- Report your final conclusion and findings in one page (readme markdown file).
-  - Team members.
-  - Introduction (problem or your goal).
-  - Dataset Overview and Source.
-  - A table represents the final results of ML models.
-- **[Nice to have - Optional]** Create an interactive dashboard using plotly.
-- Due Date: Sun, 13 Nov, at 12:00 p.m.
-- The Final presentation will be on Sunday (10 min for each group).
+## About dataset
+The dataset contains Riyadh real estate collected from AQAR in June 2022 by Reema Abuthnain.
 
-### Final Deliverables:
-- Notebook file(.ipynb).
-- Dataset file.
-- README.md file.
+The dataset contains 51845 rows and 31 features. The following are the features: 
+front                    
+bedrooms                 
+livingrooms           
+bathrooms                
+streetWidth            
+stair                    
+propertyAge          
+driverRoom               
+tent                     
+patio                    
+kitchen                  
+outdoorRoom              
+garage                   
+duplex                   
+squareSpace              
+price                    
+location                 
+numberOfApartments       
+maidRoom                 
+elevator                 
+furnished               
+pool                    
+basement    
+
+## ML models
+We used three different machine learning algorithms, such as
+
+1- SVM
+
+2- Bayesian Ridge Regression
+
+3- Linear Regression
+
+
+
+### insight 
+
+for chart #1
+The most expensive house prices were in the north and the lowest prices were in the south
+ because there are factors that affected the rise of houses in the north.
+
+chart#2
+Most of the houses with a driver's room were in the north, 
+and this factor helped raise prices in the north.
+
+chart#3
+Most of the houses had 4 to 5 rooms in all areas of Riyadh, which helped raise house prices.
+
+chart#4
+Most of the houses in Riyadh have two living rooms and contain a garage, and this affected the prices of houses in Riyadh.
+
+## Conclusion
+No strong relationship between price and other features leads to low accuracy. 
+
