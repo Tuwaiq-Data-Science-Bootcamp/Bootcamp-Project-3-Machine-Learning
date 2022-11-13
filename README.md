@@ -1,26 +1,36 @@
-# Bootcamp-Project-3-Machine-Learning
 
-Based on what you’ve learned until now, use numpy, pandas, matplotlib, seaborn and scikit-learn to create a project of your choosing. This project must at least satisfy the following minimum requirements:
 
-- Choose a public dataset that needs to clean and preprocess.
-- EDA
-  - Apply the essential EDA steps: head, shape, info, describe, missing values
-  - Display different charts that give an overview of  your data.
-- Use two splitting methods (train-test split and cross-validation split).
-- Choose three proper ML Algorithms.
-- Report appropriate evaluation metrics for each model.
-- Create a chart that compares the final results of your selected models.
-- Write a final conclusion and recommendations (your interpretation of the results).
-- Report your final conclusion and findings in one page (readme markdown file).
-  - Team members.
-  - Introduction (problem or your goal).
-  - Dataset Overview and Source.
-  - A table represents the final results of ML models.
-- **[Nice to have - Optional]** Create an interactive dashboard using plotly.
-- Due Date: Sun, 13 Nov, at 12:00 p.m.
-- The Final presentation will be on Sunday (10 min for each group).
 
-### Final Deliverables:
-- Notebook file(.ipynb).
-- Dataset file.
-- README.md file.
+◦ Team members.
+
+Khaled Alrewydan
+
+Faisal Alqahtani
+
+
+◦Introduction (problem or your goal).
+			
+
+The chosen dataset is a (hotel & resort booking) dataset in Portugal. This dataset has information about the customers stay such as the type of 	accommodation hotel\resort, the booking status (is_canceled: “0” means not canceled and “1”  means is canceled), arrival (year, month, day), stays_in_weekend_nights, stays_in_week_nights, adults, children, babies, country of the customer, market_segment,  is_repeated_guest ( “0” means not a previous customer and “1”  means is  a previous customer), reserved_room_type,   assigned_room_type, customer_type, reservation_status (canceled, no-Show, Check_Out).
+		
+◦Dataset Overview and Source.
+The dataset has a 24  columns and 119390 rows of the guest reservation years (2015, 2016, 2017).
+The dataset source is (kaggle).
+
+◦A table represents the final results of ML models.
+	
+			
+
+
+◦conclusion
+
+The top ML module we have used is the Decision Tree Classifier, it gave us %100 accuracy
+
+
+
+
+
+		
+
+
+
