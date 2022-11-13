@@ -12,7 +12,8 @@ Based on what you’ve learned until now, use numpy, pandas, matplotlib, seaborn
 - Create a chart that compares the final results of your selected models. 
 - 
 - Write a final conclusion and recommendations (your interpretation of the results).
-  - 
+  - The ounce price is expected to drop to $1,300 in the first quarter of 2023, after which prices are expected to rise by the end of the first quarter and the beginning of the second quarter.
+During the fourth quarter of 2023, the price per ounce is expected to range between $1,600 and $1,700. Therefore, we recommend buying in the first quarter of 2023.
 - Report your final conclusion and findings in one page (readme markdown file).
   - Team members.
     - Rawabe Ebrahim
